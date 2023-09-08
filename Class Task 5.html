@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter no 5</title>
+</head>
+<body>
+    <h1>Class Task</h1>
+    <h2><u> Chapter No 5</u></h2>  
+    <script>
+// MATH EXPRESSIONS
+// Q1
+document.write("<h4>Question No: 1</h4>");
+var num1 = 3;
+var num2 = 5;
+var restult = num1+num2;
+document.writeln("Sum of 3 and 5 is "+restult);
+// Q2
+ // Subtraction
+ var num1 = 10;
+      var num2 = 5;
+      var resultSubtraction = num1 - num2;
+      document.write("<br><br><h4>Question No: 2 </h4>Subtraction: " + num1 + " - " + num2 + " = " + resultSubtraction + "<br>");
+
+      // Multiplication
+      var num3 = 7;
+      var num4 = 3;
+      var resultMultiplication = num3 * num4;
+      document.write("Multiplication: " + num3 + " * " + num4 + " = " + resultMultiplication + "<br>");
+
+      // Division
+      var num5 = 20;
+      var num6 = 4;
+      var resultDivision = num5 / num6;
+      document.write("Division: " + num5 + " / " + num6 + " = " + resultDivision + "<br>");
+
+      // Modulus
+      var num7 = 15;
+      var num8 = 6;
+      var resultModulus = num7 % num8;
+      document.write("Modulus: " + num7 + " % " + num8 + " = " + resultModulus + "<br>");
+
+//   Q3
+var myVariable;
+document.write("<br><br><h4>Question No: 3 </h4>Value after variable declaration is: " + myVariable + "<br>");
+
+myVariable = 5;
+document.write("Initial value: " + myVariable + "<br>");
+
+myVariable++;
+document.write("Value after increment is: " + myVariable + "<br>");
+myVariable += 7;
+document.write("Value after addition is: " + myVariable + "<br>");
+
+
+myVariable--;
+document.write("Value after decrement is: " + myVariable + "<br>");
+
+var remainder = myVariable % 3;
+document.write("The remainder is: " + remainder + "<br><br><br>");
+
+// Q4 Movie Ticket Cost Calculation
+var ticketPrice = 600;
+var numberOfTickets = 5;
+var totalCost = ticketPrice * numberOfTickets;
+document.write("<h4> QuestionNo :4 </h4>The cost of buying " + numberOfTickets + " tickets to the movie is " + totalCost + " PKR.");
+
+// Q5
+document.write("<br><h4>Question No : 5</h4>");
+        for (var i = 1; i <= 10; i++) {
+            var result = 4 * i;
+            document.write("4 x " + i + " = " + result + "<br>");
+        }
+// Q6
+document.write("<br><h4>Question No : 6</h4>");
+var celsiusTemperature = 30;
+var fahrenheitTemperature = (celsiusTemperature * 9/5) + 32;
+document.write(celsiusTemperature + "°C is " + fahrenheitTemperature + "°F<br>");
+var fahrenheitTemperature2 = 86;
+var celsiusTemperature2 = (fahrenheitTemperature2 - 32) * 5/9;
+document.write(fahrenheitTemperature2 + "°F is " + celsiusTemperature2 + "°C");
+
+// Q7
+document.write("<br><h4>Question No : 7</h4>");
+       var priceItem1 = 25.50;
+        var priceItem2 = 15.75;
+
+        var quantityItem1 = 2;
+        var quantityItem2 = 3;
+        var shippingCharges = 10.00;
+
+        // Calculate the total cost.
+        var totalCost = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2) + shippingCharges;
+        document.write("Price of Item:" + priceItem1.toFixed(2) + "<br>");
+        document.write("Quantity of Item:" + quantityItem1 + "<br>");
+        document.write("Price of Item:" + priceItem2.toFixed(2) + "<br>");
+        document.write("Quantity of Item:" + quantityItem2 + "<br>");
+        document.write("Shipping Charges:" + shippingCharges.toFixed(2) + "<br>");
+        document.write("Total Cost:" + totalCost.toFixed(2));
+
+// Q8
+document.write("<br><h4>Question No : 8</h4>");
+        var totalMarks = 1000;
+        var marksObtained = 850;
+        var percentage = (marksObtained / totalMarks) * 100;
+        document.write("Total Marks: " + totalMarks + "<br>");
+        document.write("Marks Obtained: " + marksObtained + "<br>");
+        document.write("Percentage: " + percentage.toFixed(2) + "%");
+
+// Q9
+document.write("<br><h4>Question No : 9</h4>");
+       var usDollars = 10;
+        var saudiRiyals = 25;
+        var usdToPkrRate = 104.80;
+        var riyalToPkrRate = 28;
+        var totalPkr = (usDollars * usdToPkrRate) + (saudiRiyals * riyalToPkrRate);
+        document.write("Total amount in Pakistani Rupees: " + totalPkr.toFixed(2) + " PKR");
+
+
+// Q10
+document.write("<br><h4>Question No : 10</h4>");
+        var initialValue = 20;
+        var result = ((initialValue + 5) * 10) / 2;
+        document.write("Result: " + result);
+
+//   Q11
+document.write("<br><h4>Question No : 11</h4>");
+       var currentYear = 2016;
+        var birthYear = 1992;
+        var age = currentYear - birthYear;
+        document.write("Current Year: " + currentYear + "<br>");
+        document.write("Birth Year: " + birthYear + "<br>");
+        document.write("Your Age is: " + age + " years");
+// Q12
+document.write("<br><h4>Question No : 12(A)</h4>");
+var radius = 5; 
+var circumference = 2 * Math.PI * radius;
+var area = Math.PI * Math.pow(radius, 2);
+document.write("Radius of the circle: " + radius + "<br>");
+document.write("Circumference of the circle: " + circumference.toFixed(2) + "<br>");
+document.write("Area of the circle: " + area.toFixed(2));
+
+// Q12 B part
+document.write("<br><h4>Question No : 12 (B)</h4>");
+var radius = 7;
+var circumference = 2 * 3.142 * radius;
+var area = 3.142 * Math.pow(radius, 2);
+document.write("The circumference is " + circumference.toFixed(2) + "<br>");
+document.write("The area is " + area.toFixed(2));
+
+// Q13
+document.write("<br><h4>Question No : 13</h4>");
+</script>
+      <h2>The Lifetime Supply Calculator</h2>
+	<p>Favourite Snack: <span id="snack">chocolate chip</span></p>
+	<p>Current age: <span id="currentAge">15</span></p>
+	<p>Estimated Maximum Age: <span id="maxAge">65</span></p>
+	<p>Amount of snacks per day: <span id="snacksPerDay">3</span></p>
+	<p>You will need <span id="totalSnacks">150</span> chocolate chip to last you until the ripe old age of <span id="oldAge">65</span></p>
+
+<script>
+    // You can change these values to update the webpage
+    document.getElementById("snack").innerText = "chocolate chip";
+    document.getElementById("currentAge").innerText = 15;
+    document.getElementById("maxAge").innerText = 65;
+    document.getElementById("snacksPerDay").innerText = 3;
+    document.getElementById("totalSnacks").innerText = 150;
+    document.getElementById("oldAge").innerText = 65;
+</script>
+
+</body>
+</html>
